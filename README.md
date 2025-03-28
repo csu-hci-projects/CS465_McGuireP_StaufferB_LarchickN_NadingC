@@ -18,7 +18,7 @@
 
 ## Project Information
 
-The project will be organized using common GitHub etiquette and version control. Project academic paper will implement LaTeX and be available via the GitHub repo. Information on milestone completion and requirements can be seen below. For this project our group will be using *Unreal Engine*, specifically version X.X.X. Required plugins for the project are **[add here]**.
+The project will be organized using common GitHub etiquette and version control. Project academic paper will implement LaTeX and be available via the GitHub repo. Information on milestone completion and requirements can be seen below. For this project our group will be using *Unreal Engine*, specifically version 5.3.2. Required plugins for the project are **[add here]**.
 
 ## ***HW1*** Rubric
 
