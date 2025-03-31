@@ -8,7 +8,7 @@
 
 #### Link(s) to YouTube Submission(s):
 
-[HW1 Demo Video](https://path/to/video)
+[HW1 Demo Video](https://www.youtube.com/watch?v=kKNDkQRCNjA)
 
 [HW1 Project Root Directory (?)](https://github.com/csu-hci-projects/CS465_McGuireP_StaufferB_LarchickN_NadingC.git)
 
