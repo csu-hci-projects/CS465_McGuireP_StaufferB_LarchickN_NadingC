@@ -1,264 +1,325 @@
+%%
+%% This is file `sample-acmlarge.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `all,journal,bibtex,acmlarge')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-acmlarge.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[acmlarge]{acmart}
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
 
-% Journals
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmlicensed}
+\copyrightyear{2018}
+\acmYear{2018}
+\acmDOI{XXXXXXX.XXXXXXX}
 
-% First the Full Name is given, then the abbreviation used in the AMS Math
-% Reviews, with an indication if it could not be found there.
-% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+%%
+%% These commands are for a JOURNAL article.
+\acmJournal{POMACS}
+\acmVolume{37}
+\acmNumber{4}
+\acmArticle{111}
+\acmMonth{8}
 
-@inproceedings{10.1145/3613904.3642811,
-author = {Lystb\ae{}k, Mathias N. and Pfeuffer, Ken and Langlotz, Tobias and Gr\o{}nb\ae{}k, Jens Emil Sloth and Gellersen, Hans},
-title = {Spatial Gaze Markers: Supporting Effective Task Switching in Augmented Reality},
-year = {2024},
-isbn = {9798400703300},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3613904.3642811},
-doi = {10.1145/3613904.3642811},
-abstract = {Task switching can occur frequently in daily routines with physical activity. In this paper, we introduce Spatial Gaze Markers, an augmented reality tool to support users in immediately returning to the last point of interest after an attention shift. The tool is task-agnostic, using only eye-tracking information to infer distinct points of visual attention and to mark the corresponding area in the physical environment. We present a user study that evaluates the effectiveness of Spatial Gaze Markers in simulated physical repair and inspection tasks against a no-marker baseline. The results give insights into how Spatial Gaze Markers affect user performance, task load, and experience of users with varying levels of task type and distractions. Our work is relevant to assist physical workers with simple AR techniques and render task switching faster with less effort.},
-booktitle = {Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},
-articleno = {633},
-numpages = {11},
-keywords = {attention switching, augmented reality, eye-tracking, gaze interaction, task switching},
-location = {Honolulu, HI, USA},
-series = {CHI '24}
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{CS465 Project Report}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Patrick McGuire}
+\email{patrick.mcguire@colostate.edu}
+\affiliation{%
+  \institution{Colorado State University}
+  \city{Fort Collins}
+  \state{CO}
+  \country{USA}
 }
 
-@Article{app132212222,
-AUTHOR = {Li, Kai Way and Khaday, Samsiya and Peng, Lu},
-TITLE = {Assessments of Order-Picking Tasks Using a Paper List and Augmented Reality Glasses with Different Order Information Displays},
-JOURNAL = {Applied Sciences},
-VOLUME = {13},
-YEAR = {2023},
-NUMBER = {22},
-ARTICLE-NUMBER = {12222},
-URL = {https://www.mdpi.com/2076-3417/13/22/12222},
-ISSN = {2076-3417},
-ABSTRACT = {This study investigated the effects of wearing AR devices on users’ performance and comfort ratings while performing order-picking (OP) tasks. In addition to a picking-by-paper list, two AR devices combined with three order information display designs were examined. Thirty adult participants joined. They searched for and found the boxes in the order list, picked them up, and returned to the origin. The time to complete the task and the number of incorrect boxes picked up were analyzed to assess the performance of the tasks. The subjective ratings of the participants on the comfort rating scale (CRS) and the simulator sickness questionnaire (SSQ) were collected to assess the designs of both the AR devices and the order information displays. It was found that the participants could complete the OP tasks faster when adopting the order map (4.97 ± 1.57 min) or the 3D graph display (4.87 ± 1.50 min) using either one of the AR devices than when using a paper list (6.03 ± 1.28 min). However, they needed more time to complete the OP tasks when wearing both types of AR glasses when the Quick Response (QR) code option was adopted (10.16 ± 4.30 min) than when using a paper list. The QR code scanning and display design using either one of the AR devices guaranteed 100% accuracy but sacrificed efficiency in task completion. The AR device with a binocular display and hand gesture recognition functions had a significantly lower CRS score in the dimensions of attachment and movement (5.6 and 6.3, respectively) than the corresponding dimensions (8.0 and 8.3, respectively) of the other device with a monocular and hand touch input design. There were complaints of eye strain after using both AR devices examined in this study. This implies that these AR devices may not be suitable to wear for extended periods of time. Users should take off the AR device whenever they do not need to view the virtual image to avoid eye strain and other discomfort symptoms.},
-DOI = {10.3390/app132212222}
+\author{Noah Larchick}
+\email{nlarchic@colostate.edu}
+\affiliation{%
+  \institution{Colorado State University}
+  \city{Fort Collins}
+  \state{CO}
+  \country{USA}
 }
 
-@article{10.1145/3698146,
-author = {Faleel, Shariff AM and Sodhi, Rajveer and Irani, Pourang},
-title = {Comparison of Unencumbered Interaction Technique for Head-Mounted Displays},
-year = {2024},
-issue_date = {December 2024},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {8},
-number = {ISS},
-url = {https://doi.org/10.1145/3698146},
-doi = {10.1145/3698146},
-abstract = {Head Mounted Displays (HMDs) are gaining more public attention. With the advancement of tracking technologies, they are incorporating unencumbered interaction techniques to address the need for user-friendly and efficient interaction techniques for day-to-day activities. While there is a good understanding of the different interaction techniques individually, very little research has been done to compare them directly. This would be vital to understanding their strengths and weaknesses in different contexts and building better synergies among them. This paper uses a target selection task to compare the performance and user preferences for four interaction techniques: gaze-pinch, ray pointer, hand-proximate user interface, and direct mid-air interactions. Results indicate that the gaze-pinch interaction technique required significantly more time to complete the task than the others, whose time to complete was similar. However, in terms of preferences and errors, the interaction techniques mostly performed similar.},
-journal = {Proc. ACM Hum.-Comput. Interact.},
-month = oct,
-articleno = {546},
-numpages = {17},
-keywords = {gaze-pinch, hand proximate user interface, head-mounted display, mid-air direct, ray-pointer}
-}
+\author{Cole Nading}
+\affiliation{%
+ \institution{Colorado State University}
+ \city{Fort Collins}
+ \country{Colorado}}
+\email{cole.nading@colostate.edu}
 
-@article{10.1371/journal.pone.0246398,
-    doi = {10.1371/journal.pone.0246398},
-    author = {Schleußinger, Maurice},
-    journal = {PLOS ONE},
-    publisher = {Public Library of Science},
-    title = {Information retrieval interfaces in virtual reality—A scoping review focused on current generation technology},
-    year = {2021},
-    month = {02},
-    volume = {16},
-    url = {https://doi.org/10.1371/journal.pone.0246398},
-    pages = {1-24},
-    abstract = {The Information Retrieval user experience has remained largely unchanged since its inception for computers and mobile devices alike. However, recent developments in Virtual Reality hardware (pioneered by Oculus Rift in 2013) could introduce a new environment for Information Retrieval. This paper reports the results of a Scoping Literature Review (PRISMA-ScR) by rigorously examining the entire body of relevant literature with reproducible methods. The following research questions are answered: “What prototypes and concepts of Virtual Reality Information Retrieval systems with current generation hardware exist?”, “How are user interaction and especially user input realised in these systems?”, “What Retrieval features are used in these systems?”, “How are search results displayed in these systems?” and “Can these VR IR systems compare to traditional (non-VR) IR systems?”. After querying Google Scholar, Scopus and Web of Science, 1042 documents were reviewed in depth. Key features and attributes of the systems are summarised and discussed. Sketches of the user interfaces are included as well. The 30 documents that were relevant to the research questions include 16 distinct systems or theories. They discuss and utilise several user input technologies, ranging from controllers, voice input or hand tracking. Although conventional retrieval features are less common, systems enable retrieval of literature, 3D objects, images, books and texts and arrange them in a virtual space (e.g. as grids, arcs or maps). Finally, many of these systems were compared to conventional counterparts through user evaluation (n = 10). Most found user task times to be shorter or equal (n = 5, n = 3). In the seven papers that measured user performance (rate of correct solutions), three reported better performance (one equal). Notably, users always were more satisfied with the Virtual Reality systems compared to conventional ones. Possible limitations of these evaluations are demographic selection and the quality of baseline systems (control).},
-    number = {2},
-}
+\author{Braden Stauffer}
+\affiliation{%
+ \institution{Colorado State University}
+ \city{Fort Collins}
+ \country{Colorado}}
+\email{bstauff@colostate.edu}
 
-@article{ctx39340979090003361,
-author = {Choe, Mungyeong and Choi, Yeongcheol and Park, Jaehyun and Kim, Hyun K},
-address = {Norwood, N.J. :},
-issn = {1044-7318},
-journal = {International journal of human-computer interaction.},
-lccn = {2001214574},
-number = {7},
-publisher = {Ablex Pub. Corp.,},
-title = {Comparison of Gaze Cursor Input Methods for Virtual Reality Devices},
-volume = {35},
-year = {2019-04-21},
-}
-
-@article{Xie_2023, title={The Applications of Interface Design and User Experience in Virtual Reality}, volume={44}, url={https://drpress.org/ojs/index.php/HSET/article/view/7318}, DOI={10.54097/hset.v44i.7318}, abstractNote={
-With the rapid development of science and technology, the application of Virtual Reality (VR) technology is becoming more and more widespread. With its immersion, interactivity and expandability, VR technology has become a promising technology with broad application prospects. Therefore, this paper aims to investigate the factors that influence user experience in the design of user interface in VR environment, and to summarize the key points of VR user interface design in different application areas. The article will take interface design and user experience as the starting point to compare different user interface modes and their impact on user experience in VR environment; meanwhile, the design points of VR user interface in education field and game field and the impact factors on user experience in different scenarios are compared and summarized respectively. The final part of the article summarizes the user interface in VR environment in education and game field, and provides an outlook on the future improvement and enhancement of user experience in VR scenario.
-}, journal={Highlights in Science, Engineering and Technology}, author={Xie, Hanqing}, year={2023}, month={Apr.}, pages={189–198} }
-
-@article{Liu25112024,
-author = {Yingjie Liu and Qinglong Zhan and Wenping Zhao and},
-title = {A systematic review of VR/AR applications in vocational education: models, affects, and performances},
-journal = {Interactive Learning Environments},
-volume = {32},
-number = {10},
-pages = {6375--6392},
-year = {2024},
-publisher = {Routledge},
-doi = {10.1080/10494820.2023.2263043},
-URL = { 
-        https://doi.org/10.1080/10494820.2023.2263043
-},
-eprint = {    
-        https://doi.org/10.1080/10494820.2023.2263043     
-}
-}
-
-@inproceedings{bellotti2004studies,
-  title={What a to-do: studies of task management towards the design of a personal task list manager},
-  author={Bellotti, Victoria and Dalal, Brinda and Good, Nathaniel and Flynn, Peter and Bobrow, Daniel G and Ducheneaut, Nicolas},
-  booktitle={Proceedings of the SIGCHI conference on Human factors in computing systems},
-  pages={735--742},
-  year={2004}
-}
-
-@article{akman2013multicue,
-  title = {Multi-cue hand detection and tracking for a head-mounted augmented reality system},
-  author = {Akman, Oytun and Poelman, Ronald and Caarls, Wouter and Jonker, Pieter},
-  journal = {Machine Vision and Applications},
-  volume = {24},
-  pages = {931--946},
-  year = {2013},
-  publisher = {Springer},
-  doi = {10.1007/s00138-013-0500-6},
-  url = {https://link.springer.com/article/10.1007/s00138-013-0500-6}
-}
-
-@incollection{hall2000tracking,
-  title     = {Tracking Fingers and Hands with a Rigid Contour Model in an Augmented Reality},
-  author    = {Hall, Daniela and Crowley, James L.},
-  booktitle = {Managing Interactions in Smart Environments},
-  pages     = {34--43},
-  year      = {2000},
-  publisher = {Springer},
-  doi       = {10.1007/978-1-4471-0743-9_4},
-  url       = {https://link.springer.com/chapter/10.1007/978-1-4471-0743-9_4}
-}
-
-@article{Mahayuddin2021,
-  title     = {Vision-Based 3D Gesture Tracking Using Augmented Reality and Virtual Reality for Improved Learning Applications},
-  author    = {Mahayuddin, Zainal Rasyid and Saif, A. F. M. Saifuddin},
-  journal   = {International Journal of Advanced Computer Science and Applications},
-  volume    = {12},
-  number    = {12},
-  year      = {2021},
-  doi       = {10.14569/IJACSA.2021.0121279},
-  url       = {https://researchportal.helsinki.fi/en/publications/vision-based-3d-gesture-tracking-using-augmented-reality-and-virt}
-}
-
-@inproceedings{envarli2005task,
-  title={Task lists for human-multiple robot interaction},
-  author={Envarli, Izzet Can and Adams, Julie A},
-  booktitle={ROMAN 2005. IEEE International Workshop on Robot and Human Interactive Communication, 2005.},
-  pages={119--124},
-  year={2005},
-  organization={IEEE}
-}
-
-@inproceedings{10.1117/12.497665,
-author = {SangYoon Lee and Jinseok Seo and Gerard Jounghyun Kim and Chan-Mo Park},
-title = {{Evaluation of pointing techniques for ray casting selection in virtual environments}},
-volume = {4756},
-booktitle = {Third International Conference on Virtual Reality and Its Application in Industry},
-editor = {Zhigeng Pan and Jiaoying Shi},
-organization = {International Society for Optics and Photonics},
-publisher = {SPIE},
-pages = {38 -- 44},
-year = {2003},
-doi = {10.1117/12.497665},
-URL = {https://doi.org/10.1117/12.497665}
-}
-
-@article{LI201984,
-title = {Gesture interaction in virtual reality},
-journal = {Virtual Reality & Intelligent Hardware},
-volume = {1},
-number = {1},
-pages = {84-112},
-year = {2019},
-issn = {2096-5796},
-doi = {https://doi.org/10.3724/SP.J.2096-5796.2018.0006},
-url = {https://www.sciencedirect.com/science/article/pii/S2096579619300075},
-author = {Yang LI and Jin HUANG and Feng TIAN and Hong-An WANG and Guo-Zhong DAI},
-keywords = {Virtual reality, Gesture interaction, Gesture recognition},
-abstract = {With the development of virtual reality (VR) and human-computer interaction technology, how to use natural and efficient interaction methods in the virtual environment has become a hot topic of research. Gesture is one of the most important communication methods of human beings, which can effectively express users’ demands. In the past few decades, gesture-based interaction has made significant progress. This article focuses on the gesture interaction technology and discusses the definition and classification of gestures, input devices for gesture interaction, and gesture interaction recognition technology. The application of gesture interaction technology in virtual reality is studied, the existing problems in the current gesture interaction are summarized, and the future development is prospected.}
-}
-
-@mastersthesis{mcdonald2003hand,
-  title        = {Hand Interaction in Augmented Reality},
-  author       = {McDonald, Chris},
-  school       = {Carleton University},
-  year         = {2003},
-  type         = {Master's thesis},
-  address      = {Ottawa, Ontario, Canada},
-  url          = {https://people.scs.carleton.ca/~roth/PubSummary2/McDonald_Thesis.pdf}
-}
+%\author{Valerie B\'eranger}
+%\affiliation{%
+%  \institution{Inria Paris-Rocquencourt}
+%  \city{Rocquencourt}
+%  \country{France}
+%}
 
 
-@article{marques2020interaction,
-  title={Interaction with Virtual Content using Augmented Reality: A User Study in Assembly Procedures},
-  author={Marques, Bernardo and Alves, Jo{\~a}o and Neves, Miguel and Maio, Rafael and Justo, In{\^e}s and Santos, Andr{\'e} and Rainho, Raquel and Costa, Dany and Ferreira, Carlos and Dias, Paulo and Santos, Beatriz Sousa},
-  journal={Proceedings of the ACM on Human-Computer Interaction},
-  volume={4},
-  number={ISS},
-  pages={196:1--196:17},
-  year={2020},
-  publisher={ACM},
-  doi={10.1145/3427324},
-  url={https://doi.org/10.1145/3427324}
-}
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Trovato et al.}
 
-@article{hurst2013gesture,
-  title={Gesture-based interaction via finger tracking for mobile augmented reality},
-  author={H{\"u}rst, Wolfgang and van Wezel, Casper},
-  journal={Multimedia Tools and Applications},
-  volume={62},
-  number={1},
-  pages={233--258},
-  year={2013},
-  publisher={Springer},
-  doi={10.1007/s11042-011-0983-y},
-  url={https://link.springer.com/article/10.1007/s11042-011-0983-y}
-}
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+  A clear and well-documented \LaTeX\ document is presented as an
+  article formatted for publication by ACM in a conference proceedings
+  or journal publication. Based on the ``acmart'' document class, this
+  article presents and explains many of the common variations, as well
+  as many of the formatting elements an author may use in the
+  preparation of the documentation of their work.
+\end{abstract}
 
-@article{Gronowski2024,
-  author       = {Gracjan Gronowski and Kacper Gronowski and Krzysztof Gajos and Grzegorz Kraj},
-  title        = {Comparison of task performance between virtual and augmented reality: the impact of immersion and presence},
-  journal      = {Virtual Reality},
-  year         = {2024},
-  doi          = {10.1007/s10055-024-01032-w},
-  url          = {https://link.springer.com/article/10.1007/s10055-024-01032-w}
-}
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+%\begin{CCSXML}
+%<ccs2012>
+% <concept>
+%  <concept_id>00000000.0000000.0000000</concept_id>
+%  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+%  <concept_significance>500</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>00000000.00000000.00000000</concept_id>
+%  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+%  <concept_significance>300</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>00000000.00000000.00000000</concept_id>
+%  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+%  <concept_significance>100</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>00000000.00000000.00000000</concept_id>
+%  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+%  <concept_significance>100</concept_significance>
+% </concept>
+%</ccs2012>
+%\end{CCSXML}
 
-@article{Jacobsen2022,
-  author       = {Lina Fogt Jacobsen and Nora Mossing Krogsgaard-Jensen and Anne O. Peschel},
-  title        = {Shopping in Reality or Virtuality? A Validation Study of Consumers’ Price Memory in a Virtual vs. Physical Supermarket},
-  journal      = {Foods},
-  volume       = {11},
-  number       = {14},
-  pages        = {2111},
-  year         = {2022},
-  doi          = {10.3390/foods11142111},
-  url          = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9316986/}
-}
+%\ccsdesc[500]{Do Not Use This Code~Generate the Correct Terms for Your Paper}
+%\ccsdesc[300]{Do Not Use This Code~Generate the Correct Terms for Your Paper}
+%\ccsdesc{Do Not Use This Code~Generate the Correct Terms for Your Paper}
+%\ccsdesc[100]{Do Not Use This Code~Generate the Correct Terms for Your Paper}
 
-@article{Pini2023,
-  author       = {Valentina Pini and Valeria Orso and Patrik Pluchino and Luciano Gamberini},
-  title        = {Augmented grocery shopping: fostering healthier food purchases through AR},
-  journal      = {Virtual Reality},
-  volume       = {27},
-  pages        = {2117--2128},
-  year         = {2023},
-  doi          = {10.1007/s10055-023-00792-1},
-  url          = {https://link.springer.com/article/10.1007/s10055-023-00792-1}
-}
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+%\keywords{Do, Not, Us, This, Code, Put, the, Correct, Terms, for,
+%  Your, Paper}
 
-@misc{microsoft_hololens_2023,
-  title        = {HoloLens 2 capabilities and solutions},
-  author       = {{Microsoft Corporation}},
-  year         = {2023},
-  url          = {https://learn.microsoft.com/en-us/hololens/hololens-commercial-features},
-  note         = {Accessed: 2025-05-02}
-}
+\received{20 February 2007}
+\received[revised]{12 March 2009}
+\received[accepted]{5 June 2009}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+In an increasingly digital world, the integration of extended reality into our everyday lives is a promising avenue for promoting productivity and overall user experience. Our project aims to explore this potential by comparing the efficiency of both augmented reality and virtual reality interfaces with traditional smartphones list applications across realistic scenarios; potential scenarios ranging from grocery shopping to outdoor activities like fishing or skiing. We will use metrics such as error rate, task completion time, and user satisfaction discovered through user surveys, we aim to further our understanding of whether virtual and augmented reality can offer a more intuitive and enjoyable experience for managing routine activities.
+
+This project thus lies within the area of user interface design, interaction, and experience within extended reality. Many user interface design considerations within a 2D environment are challenged when designing for a 3D interface such as virtual reality \cite{Xie_2023}. With that consideration and the large interest in virtual reality tools, there are many different avenues for designing such an interface within virtual reality. Our project seeks to incorporate and compare many of these for the purpose of improving user interactivity with our virtual reality task list implementation. Further, with virtual reality seeing large growth in use cases for different fields such as education \cite{Liu25112024}, a virtual reality task list could then see expansion into many different areas.
+
+As day-to-day life becomes more and more reliant on digital technology, users increasingly rely on things such as task management to stay organized in both personal and professional settings. Traditional mobile apps offer a good solution with a structured way to manage tasks, but they often lack spatial context or hands-free interaction. By investigating whether AR interfaces can streamline task handling and improve engagement, our study contributes to a growing conversation around how emerging technologies can enhance cognitive workflows and simplify digital organization. 
+
+\section{Previous Work}
+Here we introduce previous findings on the success of task lists, virtual reality, and interaction techniques. We dive deeper into their interconnectedness and performance when used in tandem.
+
+\subsection{Interaction techniques in VR}
+In a 2024 study on effective task switching, a group of researchers looked at the concept of spatial gaze markers to assist users in augmented reality to better transition between tasks \cite{10.1145/3613904.3642811}. Although this study primarily looked at tasks as an action, this research can also be applied to the idea of a task list by using gaze markers when returning to a task description within a list. Another study performed in 2023 looked at how using AR devices to display a list can enhance a warehouse work task \cite{app132212222}. In the study they compared paper lists to augmented reality lists and how they can be best represented to enhance work performance. The analysis on user performance through having users complete a given task can help give insight as to how we may best test our project. A 2024 study compared some of the most popular interaction techniques when using head mounted displays such as for AR or VR \cite{10.1145/3698146} This research is primarily interesting as all of these interaction techniques can be applied to a task list. This helps our experiment as we don’t need to repeat the study by over-analyzing specific interaction techniques and instead apply the ones already studied.
+
+Extending off the idea of the many different methods of input for a virtual reality user interface, the 2019 research study, "Comparison of Gaze Cursor Input Methods for Virtual Reality Devices", looks at one specific method in particular, gaze cursors. The article states that this gaze input method is used mainly as a replacement for a controller \cite{ctx39340979090003361}. This is of large interest to our research and prototype as a hands-free virtual reality task list may be preferred to a user who is actively performing a set of duties. They compared the gaze selection method with a manual selection method where the user pressed a separate button while the cursor was placed on the object \cite{ctx39340979090003361}. They thus found that the manual selection mode had a faster rate of task completion, but had a higher error rate than the gaze input method, with it being five times higher \cite{ctx39340979090003361}. Further, they chose to compare different timings for the gaze selection methods, to simplify this concept, these timings roughly controlled how long the users had to look at a button for it to be selected \cite{ctx39340979090003361}. The timings compared were measured in seconds being 1, 1.5, and 2. This is important to our project and prototype as they found 1 second gaze duration to perform better than the other options when the users did the given task \cite{ctx39340979090003361}. Within our prototype we will thus seek to use a similar duration, or lower as 1-s was the lowest time the study looked it, this indicates that even lower durations may provide better results. Finally, the study states that the findings may be of uses in tasks with a requirement of repeated selections, such as a keyboard \cite{ctx39340979090003361}. This may provide an option for the most optimal solution to creating tasks within virtual reality alongside being useful as a way to select tasks out of a list.
+
+\subsection{Implications of Virtual Reality}
+Recent work by Gronowski et al. (2024) compared user performance between AR and VR conditions in data visualization tasks and found that VR significantly outperformed AR in terms of task completion time, effectiveness, and satisfaction \cite{gronowski2024}. Participants also reported lower cognitive load in VR, suggesting that full immersion can benefit complex task handling—even at the expense of real-world context. This insight may indicate similar performance advantages in our own VR task list prototype. 
+
+Meanwhile, Jacobsen et al. (2022) validated the realism of VR simulations by showing no significant difference in price recall between participants shopping in a physical grocery store and those in a VR replica \cite{jacobsen2022}. This affirms the ecological validity of using VR for everyday activities like shopping—relevant to our experiment where VR grocery tasks are used to measure interface performance.  
+
+A 2021 research paper, "Information retrieval interfaces in virtual reality-A scoping review focused on current generation technology", compared information retrieval interfaces in virtual reality to more traditional methods, primarily looking at research papers on different virtual reality methods and how they can be applied to this kind of system. Citing that the experience has been mostly the same since their creation, with search interfaces, speech recognition, etc \cite{10.1371/journal.pone.0246398}. Although this study looked at interfaces for storing and retrieving data from digital databases, many of these same concepts can be applied to a virtual reality task list. This is due to many of the user-interface concepts being easy to apply from the usability of a information retrieval system to a system for storing and retrieving tasks. Although the study looked at many different processes and theories for performing these tasks in virtual reality, they found that most of them proved to have significantly higher user performance in both speed and quality \cite{10.1145/3698146}. This may give an indication of results we might see within our own study when comparing traditional task lists to those represented within a virtual reality system. Further, the study cites that due to the wide range of sources for these systems built in virtual reality, it would be best to design a working prototype. Citing that a thorough and open-minded study with a proper baseline would be important \cite{10.1371/journal.pone.0246398}. Although this study looked at a different topic of virtual reality user interfaces, this is adjacent to our prospective area and we will perform these requirements on our prototype.
+
+Pini et al. (2023) demonstrated AR’s potential in improving grocery decision-making by showing that real-time nutrition overlays influenced participants to choose healthier options \cite{pini2023}. This supports our design decision to use AR visual cues in a shopping context and highlights the interface’s role in enhancing awareness and decision quality.
+
+\subsection{Task List Effectiveness}
+While our project focuses primarily on virtual reality and its implications for task management, a critical aspect of the research lies in understanding real-world task list design. A 2004 study on task management and task list design revealed interesting results on optimal task list design choices and their corresponding completion rate values \cite{bellotti2004studies}. The study found that most people are quite effective at creating proper prioritization on their task lists but fail to apply the proper effort to complete them when the time comes \cite{bellotti2004studies}. The study additionally found that task lists via email, paper print-out, and index-card had a lower complete-rate within a week. Contrasting this, notes in a notebook, vertical folders, and an open PC tab were the most effective. This component of the study specifically aligns with our project, in that our task list will most likely be formatted in the open PC tab format. Conclusive evidence from this study will likely be beneficial for the creation of our prototypes and the development of successful task lists in Virtual Reality. A 2005 study on human-robot interaction similarly found results around the use of a task-list in improving human management efficiency \cite{envarli2005task}. Mirroring earlier findings, the study demonstrated that a structured task-list significantly improved performance, particularly for users unfamiliar with the system: “[t]he results have shown that the task list produced improved performance when the users had little familiarity with the system” \cite{envarli2005task}. The participants valued the organization and prioritization provided by the task-list interface which was crucial to task completion. Compared to index cards the task list shown a 1+ minute time improvement to completion times during their study. Notably, in both studies the PC-tab format task-list, proved to be an effective organization solution for many test scenarios. Given these results, a VR-based task-list could similarly improve performance in digital simulations by providing clear task structure and guidance.
+
+\subsection{Personal Productivity in AR/VR}
+While academic research has laid the groundwork for understanding interaction techniques in extended reality, most commercial efforts in AR and VR have focused on large-scale, enterprise, or entertainment applications. For example, Microsoft’s HoloLens 2 is widely used in industrial training, remote assistance, and medical visualization, emphasizing team-based collaboration and enterprise workflows rather than personal organization or task management \cite{microsoft_hololens_2023}. Meta’s Horizon Workrooms and Quest platforms are largely designed for immersive social interaction, gaming, and virtual collaboration, rather than structured, solo task execution \cite{meta_horizon_workrooms_2021}. These platforms showcase the broad potential of XR, but they often overlook the needs of individual users seeking to manage their everyday responsibilities—such as grocery shopping, packing, or tracking to-dos—within immersive environments. Additionally, prior studies tend to focus more on individual input techniques- such as gaze, gesture, or controller-based interactions- in isolation rather than comparing them in one single interface. Our project addresses this gap by developing a VR task list prototype that integrates multiple input modalities and supports common productivity actions, such as creating, selecting, and reordering tasks. By evaluating performance and user preference in realistic scenarios, we aim to explore how extended reality can enhance personal productivity through intuitive and immersive design.
+
+
+\section{Methodology}
+This study seeks to analyze different extended reality approaches to user interface design when applied to creating a task list. Due to the broad area of this topic and the multiple applicable approaches, we created a prototype that incorporates several methods. This enables us to then compare the methods against one another in an environment where the user has the power to use whatever method feels most appropriate. 
+
+We chose to develop our prototype in virtual reality to simplify the testing process. By virtualizing the different real world tasks we asked our participants to perform, we avoid complications and large time requirements that would arise in a purely augmented reality approach. Furthermore, by replicating the real tasks in virtual reality, we believe these results are still useful to an augmented reality design space. 
+
+\subsection{Prototype Development} 
+
+We created our task-list prototype using Unreal engine and performed testing with the Meta Quest 2 headset. Virtual reality was chosen as the extended reality format used for testing due to allowing us to create and simulate different physical environments for performing tasks such as a grocery store. Virtual reality allows use to more easily implement these real-world situations in an isolated environment which provided a better context for testing user interaction especially when contrasted with the increased complexity of using augmented reality.  
+
+The prototype incorporates three primary input methods which are based on the previous research: 
+
+\subsubsection {Controller-Based Selection/Interaction:} 
+
+With this method, users are able to interact with the task list, specifically items in the task list, using handheld virtual reality controllers. We chose to use the Quest Touch controllers as these came with the Quest 2 headset and were readily available. This interaction method replicates pointer-based interaction techniques, which gave us a baseline from previous work of which to go off \cite{10.1117/12.497665}. 
+
+\subsubsection{Gaze-Based Selection/Interaction:} This method enables users to be able to interact with items in the task listen through a gaze-based cursor. Based on previous research and work, selecting items is accomplished by looking at them for a fixed gaze duration \cite{ctx39340979090003361}. Also, accordingly with the previous research’s findings, we set to gaze duration to 1 second \cite{ctx39340979090003361}. 
+
+\subsubsection{Gestural and Hand Tracking Selection/Interaction:} Through basic gesture recognition, users are enabled to interact with the task list and items within it using different hand gestures. Given previous research on the subject of gesture recognition and interaction in a virtual reality space, we chose to use pointing and pinching gestures \cite{LI201984} \cite{Mahayuddin2021}.
+
+The task list protype supports expected and core operations of a smart phone-based task list. These are, creating, selecting, checking off, and reordering tasks. Our interface seeks to be of minimalist design with the intent of reducing cognitive load and ensuring the interaction techniques and methods are the primary variable being evaluated. 
+
+\subsection{User Study Design}
+
+To evaluate the prototype, we conducted a user study that requires participants to perform simulated real-world tasks within virtual reality. Participants are instructed to use the task-list to complete objectives using any of the supported interaction methods. Participants are given a brief tutorial on the system and interaction techniques. This is done with the intention of reducing bias stemming from a user’s previous experience level with virtual reality systems. 
+
+	\subsubsection{Grocery Shopping:} Here we simulate a grocery store with aisles containing different items. The user is provided a task-list that contains different items in the store that they need to collect. The user must search the rows of the store for the given items which simulates grocery shopping in the real world. As the user picks up an item, they are to check it off on the task-list. 
+
+	\subsubsection{Packing a Bag:} Here the user is asked to pack a bag for traveling, again with the goal of simulating a real-world experience. Within the virtual environment, the user has a travel bag along with many different items on a table. The task-list will list each object that must be placed into the bag. The user is then assigned to place each object provided on the task-list into the bag, crossing off items on the task-list as they are completed. 
+
+\subsection{Measurements and Evaluation}
+
+During and after the participant tests our prototype, we will measure a few different metrics. Some of these metrics are qualitative and some are quantitative with the goal being to find what interaction methods were preferred as well as how effective users were at utilizing them. 
+
+\subsubsection{Task completion time:} How long a user takes to complete a specific task on the list as well as the overall completion time of all items on the task-list. 
+
+\subsubsection{Error Rate:} The number of times where a user selects the wrong task item such as accidental selections or deletions. 
+
+\subsubsection{User Preference:} After the initial test, we asked each user to rate the interaction techniques as well as any open-ended feedback they would provide. Further, we asked the user if they have utilized task-lists on their smartphone before, and if-so, how their experience compares to using the prototype.
+
+\section{Study 1 Strict Comparison}
+In this Study, participants were requested to check of items from a task list in correspondence to a grocery list...
+
+\section{Implications and Future Work}
+After compiling data from our studies, it can be concluded that... Future research would still be nice as you could learn more about...
+
+\section{Conclusion}
+After all is said and done, get this section done bringing the whole thing together...
+
+\begin{acks}
+To Robert, for the bagels and explaining CMYK and color spaces.
+\end{acks}
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bib.bib}
+
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+\end{document}
+\endinput
+%%
+%% End of file `sample-acmlarge.tex'.
