@@ -8,6 +8,8 @@
 
 #### Link(s) to YouTube Submission(s):
 
+[Prototype Study](https://youtu.be/4DsHtbMeKT4)
+
 [HW1 Demo Video](https://www.youtube.com/watch?v=kKNDkQRCNjA)
 
 [HW1 Project Root Directory (?)](https://github.com/csu-hci-projects/CS465_McGuireP_StaufferB_LarchickN_NadingC.git)
