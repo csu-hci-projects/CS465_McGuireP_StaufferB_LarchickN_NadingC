@@ -276,7 +276,7 @@ With this method, users are able to interact with the task list, specifically it
 
 \subsubsection{Gestural and Hand Tracking Selection/Interaction:} Through basic gesture recognition, users are enabled to interact with the task list and items within it using different hand gestures. Given previous research on the subject of gesture recognition and interaction in a virtual reality space, we chose to use pointing and pinching gestures \cite{LI201984} \cite{Mahayuddin2021}.
 
-The task list protype supports expected and core operations of a smart phone-based task list. These are, creating, selecting, checking off, and reordering tasks. Our interface seeks to be of minimalist design with the intent of reducing cognitive load and ensuring the interaction techniques and methods are the primary variable being evaluated. 
+The task list prototype supports expected and core operations of a smart phone-based task list. These are, creating, selecting, checking off, and reordering tasks. Our interface seeks to be of minimalist design with the intent of reducing cognitive load and ensuring the interaction techniques and methods are the primary variable being evaluated. 
 
 \subsection{Procedure} 
 
@@ -289,13 +289,24 @@ Throughout the session, system logs captured all user interactions, including ta
 Each session lasted approximately 20 minutes, including the tutorial, task performance, and follow-up survey
 \subsection{Measurements and Evaluation}
 
-During and after the participant tests our prototype, we will measure a few different metrics. Some of these metrics are qualitative and some are quantitative with the goal being to find what interaction methods were preferred as well as how effective users were at utilizing them. 
+During and after the participant tests of our prototype, we collected both quantitative and qualitative data to evaluate user interaction. Quantitative metrics included task completion time and error rate, while qualitative feedback was gathered through Likert-scale questions assessing ease of use, physical and cognitive effort, confidence in selections, and overall enjoyment. Open-ended prompts further encouraged participants to describe any confusion, interaction preferences, and how they might use such a system in their daily lives.
 
 \subsubsection{Task completion time:} How long a user takes to complete a specific task on the list as well as the overall completion time of all items on the task-list. 
 
 \subsubsection{Error Rate:} The number of times where a user selects the wrong task item such as accidental selections or deletions. 
 
 \subsubsection{User Preference:} After the initial test, we asked each user to rate the interaction techniques as well as any open-ended feedback they would provide. Further, we asked the user if they have utilized task-lists on their smartphone before, and if-so, how their experience compares to using the prototype.
+
+\subsection{The Data}
+Data collected from each scenario will be statistically analyzed to determine whether the AR task list provides a significant advantage—or disadvantage—compared to traditional list interfaces. This approach enables us to assess AR's viability as a practical organizational tool and provide recommendations for future HCI designs.\\
+
+The independent variable is the display modality (AR vs. smartphone), while the dependent variables include task completion time, error rate (missed or incorrect tasks), and user satisfaction (measured via post-task surveys). The AR prototype will incorporate interaction techniques and visual cues from prior research—such as spatial gaze markers for reorienting attention—along with new techniques we develop during the project. The study emphasizes hands-free or minimal interaction methods to maintain immersion in physical tasks.\\
+
+Quantitative data that is collected during the study will be analyzed using paired sample t-tests to assess if there are any significant differences between the AR task list and the traditional smartphone-based task list. Since each participant completes a task using both systems, this allows us to control individual differences and just focus on the impact of the interface itself. Data will be recorded for each participant across both conditions and structured to enable direct comparisons of task performance. These tests will be performed using a specific Python script that allows us to compute t-statistics and p-values. A p–value less than 0.05 will indicate a significant difference between the two conditions, helping us evaluate whether AR interfaces provide measurable performance benefits over conventional mobile-based task lists. \\
+
+In addition to performance data, qualitative feedback will be collected through the post-task surveys. Participants will respond to Likert-scaled questions addressing usability, comfort, and effectiveness, as well as open-ended questions about their overall experience with each system. These qualitative responses will be grouped into themes to provide more insight into user satisfaction, cognitive load, and overall preferences. By integrating statistical findings with qualitative insights, our evaluation provides a comprehensive assessment of the practicality and effectiveness of AR-based task list interfaces in everyday scenarios. 
+
+
 
 \section{Study 1 Strict Comparison}
 In this Study, participants were requested to check of items from a task list in correspondence to a grocery list...
