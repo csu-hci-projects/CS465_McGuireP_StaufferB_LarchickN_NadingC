@@ -45,6 +45,7 @@
 %%
 %%
 \documentclass[acmlarge]{acmart}
+\usepackage{graphicx}
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
 \AtBeginDocument{%
@@ -279,7 +280,14 @@ With this method, users are able to interact with the task list, specifically it
 
 \subsection{Procedure}
 
-To evaluate the prototype, we conducted a user study where participants performed a simulated grocery shopping task within a virtual reality environment. Each participant completed the same task twice under different input conditions: once using gaze-based interaction exclusively and once using controller-based interaction exclusively. The controller input utilized a beam-style pointing method via Meta Quest 2’s handheld controllers. This structure allowed for a controlled comparison between the two input modalities.
+To evaluate the prototype, we conducted a user study where participants performed a simulated grocery shopping task within a virtual reality environment as seen in figure \ref{fig:store}. Each participant completed the same task twice under different input conditions: once using gaze-based interaction exclusively and once using controller-based interaction exclusively. The controller input utilized a beam-style pointing method via Meta Quest 2’s handheld controllers. This structure allowed for a controlled comparison between the two input modalities.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{VRStorePreview.png}
+    \caption{Preview of VR store}
+    \label{fig:store}
+\end{figure}
 
 Before beginning the tasks, each participant received a brief tutorial on the VR environment and both interaction methods to minimize bias caused by varying levels of VR experience. The task involved navigating a virtual grocery store, locating five distinct grocery items (differentiated by color and shape), and checking them off a virtual task list. The list interface could be accessed via the participant's wrist using controller input.
 
