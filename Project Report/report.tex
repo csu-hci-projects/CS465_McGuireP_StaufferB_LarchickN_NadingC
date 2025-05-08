@@ -109,7 +109,7 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{CS465 Project Report}
+\title{Comparing Gaze and Controller Input for Task Management in Virtual Reality Environments}
 
 %%
 %% The "author" command and its associated commands are used to define
@@ -122,7 +122,7 @@
 \affiliation{%
   \institution{Colorado State University}
   \city{Fort Collins}
-  \state{CO}
+  \state{Colorado}
   \country{USA}
 }
 
@@ -131,7 +131,7 @@
 \affiliation{%
   \institution{Colorado State University}
   \city{Fort Collins}
-  \state{CO}
+  \state{Colorado}
   \country{USA}
 }
 
@@ -139,14 +139,16 @@
 \affiliation{%
  \institution{Colorado State University}
  \city{Fort Collins}
- \country{Colorado}}
+ \state{Colorado}
+ \country{USA}}
 \email{cole.nading@colostate.edu}
 
 \author{Braden Stauffer}
 \affiliation{%
  \institution{Colorado State University}
  \city{Fort Collins}
- \country{Colorado}}
+ \state{Colorado}
+ \country{USA}}
 \email{bstauff@colostate.edu}
 
 %\author{Valerie B\'eranger}
@@ -273,7 +275,7 @@ The prototype incorporates three primary input methods which are based on the pr
 
 With this method, users are able to interact with the task list, specifically items in the task list, using handheld virtual reality controllers. We chose to use the Quest Touch controllers as these came with the Quest 2 headset and were readily available. This interaction method replicates pointer-based interaction techniques, which gave us a baseline from previous work of which to go off \cite{10.1117/12.497665}. 
 
-\subsubsection{Gaze-Based Selection/Interaction:} This method enables users to be able to interact with items in the task listen through a gaze-based cursor. Based on previous research and work, selecting items is accomplished by looking at them for a fixed gaze duration \cite{ctx39340979090003361}. Also, accordingly with the previous research’s findings, we set to gaze duration to 1 second \cite{ctx39340979090003361}. 
+\subsubsection{Gaze-Based Selection/Interaction:} This method enables users to be able to interact with items in the task listen through a gaze-based cursor. Based on previous research and work, selecting items is accomplished by looking at them for a fixed gaze duration \cite{ctx39340979090003361}. Also, accordingly with the previous research’s findings, we set to gaze duration to highlight with gaze and select with trigger \cite{ctx39340979090003361}. 
 
 \subsection{Procedure}
 
@@ -281,7 +283,7 @@ To evaluate the prototype, we conducted a user study where participants performe
 
 Before beginning the tasks, each participant received a brief tutorial on the VR environment and both interaction methods to minimize bias caused by varying levels of VR experience. The task involved navigating a virtual grocery store, locating five distinct grocery items (differentiated by color and shape), and checking them off a virtual task list. The list interface could be accessed via the participant's wrist using controller input.
 
-In the gaze-only trial, participants used a fixed-duration gaze cursor (set to 1 second) to make selections and check off items. In the controller-only trial, participants used a laser pointer-style beam emitted from the controller to select and interact with list items. Input modality switching was disabled during each trial to preserve experimental control.
+In the gaze-only trial, participants used a fixed-duration gaze cursor (highlighting a selection with gaze and trigger with a controller) to make selections and check off items. In the controller-only trial, participants used a laser pointer-style beam emitted from the controller to select and interact with list items. Input modality switching was disabled during each trial to preserve experimental control.
 
 System logs recorded all user interactions, including task completion time, selection events, and any errors such as incorrect or accidental selections. After completing both trials, participants filled out a post-task survey comparing the two input methods. The survey included Likert-scale questions assessing ease of use, physical and cognitive effort, confidence in selections, and overall enjoyment, along with open-ended prompts for qualitative feedback.
 
@@ -324,13 +326,15 @@ Survey results showed a clear participant preference for controller-based intera
 
 \subsection{Summary}
 
-Our results suggest that while gaze-based interaction offers a viable and intuitive hands-free option, controller-based input currently provides superior performance in terms of both speed and accuracy for VR-based task list interactions. These findings highlight the continued reliability of traditional controller interfaces while also pointing to the potential of gaze as a complementary or alternative method for specific use cases.
-
-\section{Study 1 Strict Comparison}
-In this Study, participants were requested to check of items from a task list in correspondence to a grocery list...
+Our results suggest that while gaze-based interaction offers a viable and intuitive hands-free option, controller-based input currently provides superior performance in terms of both speed and accuracy for VR-based task list interactions. These findings highlight the continued reliability of traditional controller interfaces while also pointing to the potential of gaze as a complementary or alternative method for specific use cases. 
 
 \section{Implications and Future Work}
-After compiling data from our studies, it can be concluded that... Future research would still be nice as you could learn more about...
+
+The findings from this study offer important implications for the design of task management systems in virtual reality environments. Our results suggest that while controller-based interaction continues to be the most efficient and precise method, gaze-based input holds promise for hands-free interaction in contexts where physical movement may be constrained or convenience is prioritized. Designers of XR productivity tools should consider incorporating both modalities, offering users the flexibility to choose their preferred interaction method depending on context and task complexity.
+
+Additionally, this research reinforces the value of immersive, spatial user interfaces for list-based task management, which has traditionally been confined to 2D screens. The ability to integrate task lists directly into spatial environments opens new possibilities for workflows that blend the digital and physical worlds.
+
+Future work should expand the participant pool to include a broader demographic range and varying levels of XR experience to enhance the generalizability of the results. Moreover, exploring hybrid interfaces that combine gaze with subtle controller or voice input may yield improved performance without sacrificing hands-free usability. Longitudinal studies evaluating user adaptation over time would also help uncover whether gaze-based systems become more efficient with practice. Finally, comparing interaction methods across more complex or collaborative tasks could provide further insight into how immersive UIs can scale to meet the needs of professional and high-stakes environments.
 
 \section{Conclusion}
 This study investigated the performance and usability of two interaction modalities, gaze-based and controller-based, for managing task lists in a virtual reality environment. By simulating a grocery shopping task in VR and evaluating user performance across both input methods, we found controller-based interaction significantly outperformed gaze-based interaction in both speed and accuracy. Participants completed tasks faster and with fewer errors when using the handheld controllers.
@@ -340,7 +344,7 @@ While gaze-based input was praised for its hands-free design and intuitiveness, 
 Our findings contribute to ongoing XR research by offering actionable insight into input modality design for task management systems. As VR continues to evolve, future work should explore adaptive gaze calibration, multimodal input switching, and longer-term use cases to determine how hands-free interaction can be optimized for broader adoption in everyday XR workflows.
 
 \begin{acks}
-To Robert, for the bagels and explaining CMYK and color spaces.
+Thanks for a great Semester!
 \end{acks}
 
 %%
