@@ -96,4 +96,8 @@ Creation of a **zip file** named *CS465_McGuireP_StaufferB_LarchickN_NadingC* co
 
 Creation of a **YouTube video** named *DemoVideoHW1* containing a 3-10 minute video demonstrating each task the group completed.
 
-### Contributions
+## Contributions
+
+### Braden
+
+I contributed to all aspects of the paper, including conducting experiments by testing the prototype on my roommates. I revised sections throughout the paper to improve the overall flow and ensure smooth transitions between topics. While my work on the codebase was limited, I proposed using t-tests to calculate p-values, which helped us better understand the statistical significance of our prototype compared to traditional smartphone use. Additionally, I broke down the data we collected and provided explanations of both the quantitative and qualitative aspects of our findings.
