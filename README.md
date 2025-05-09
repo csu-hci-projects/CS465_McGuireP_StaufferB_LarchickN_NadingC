@@ -95,3 +95,5 @@ different groups so keep that in mind while you are completing your tasks.
 Creation of a **zip file** named *CS465_McGuireP_StaufferB_LarchickN_NadingC* containing project root directory, must be confirmed functional or points will be lost.
 
 Creation of a **YouTube video** named *DemoVideoHW1* containing a 3-10 minute video demonstrating each task the group completed.
+
+### Contributions
