@@ -26,6 +26,10 @@ a smartphone
 explained the quantitative and qualitative aspects
 of our data
 
+Noah:
+Code (prop development only)
+Github organization (Initial README construction)
+Helped with paper throughout (previous work, precedure, general re-works)
 
 Links to Videos:
 Presentation: https://youtu.be/CDAKFe1-aCY
